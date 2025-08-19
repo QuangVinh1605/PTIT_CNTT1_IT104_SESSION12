@@ -1,0 +1,64 @@
+/* Layout tổng */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #d1d5db;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background: #6b7280;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* Menu */
+.menu {
+  background: #16a34a;
+  color: white;
+  padding: 16px;
+  width: 200px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  background: #f3f4f6;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* Cart */
+.cart {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+/* Article */
+.article {
+  background: #93c5fd;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
